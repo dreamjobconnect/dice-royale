@@ -1,0 +1,6 @@
+{
+  "name": "Universal Match Dice Battle",
+  "description": "An immersive neon-themed multiplayer dice battle game supporting 2 to 6 players, custom photos, 3D dice rolling, and multiple game modes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
