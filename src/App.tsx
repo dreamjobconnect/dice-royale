@@ -620,18 +620,18 @@ export default function App() {
                       />
                     </div>
 
-                    {/* Name & Score */}
-                    <h3 className="font-bold text-sm text-white truncate w-full">{player.name}</h3>
-                    <div className="mt-1 flex items-baseline justify-center gap-1">
-                      <span className="text-2xl font-black bg-gradient-to-r from-white via-purple-200 to-pink-300 bg-clip-text text-transparent">
-                        {player.score}
-                      </span>
-                      <span className="text-[10px] text-purple-300/70 uppercase">pts</span>
-                    </div>
-
-                    <span className="text-[10px] text-slate-400 mt-1">
-                      Rolls: {player.rollsCount}
-                    </span>
+                    <span
+  className="text-2xl font-black text-white"
+  style={{
+    color: "#ffffff",
+    opacity: 1,
+    textShadow: "none",
+    filter: "none",
+    WebkitTextFillColor: "#ffffff"
+  }}
+>
+  {player.score}
+</span>
                   </div>
                 );
               })}
